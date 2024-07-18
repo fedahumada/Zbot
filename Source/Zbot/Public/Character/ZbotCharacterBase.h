@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "ZbotCharacterBase.generated.h"
+class UFloatingPawnMovement;
 
 UCLASS(Abstract)
 class ZBOT_API AZbotCharacterBase : public ACharacter
@@ -16,6 +17,5 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
-
 
 };
