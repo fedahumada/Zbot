@@ -26,12 +26,12 @@ public:
 
 	//~ CombatInterface
 
+protected:
+	virtual void BeginPlay() override;
 	
 public:
-
-
+	AZbotEnemy();
 	
-protected:
 
 	
 
